@@ -101,6 +101,7 @@ export default function Header() {
               </div>
             </div>
           </div>
+<<<<<<< HEAD
         </div>
       </div>
 
@@ -133,6 +134,8 @@ export default function Header() {
               About Us
             </Link>
           </div>
+=======
+>>>>>>> refs/remotes/origin/main
         </div>
       )}
     </nav>
