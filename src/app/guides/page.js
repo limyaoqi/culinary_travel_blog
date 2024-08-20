@@ -1,12 +1,9 @@
-import Head from 'next/head';
+'use client'
 
 export default function Guides() {
   return (
     <div>
-      <Head>
-        <title>Food Travel Guides - Culinary Travel Blog</title>
-        <meta name="description" content="Explore our food travel guides for the best culinary experiences across Malaysia." />
-      </Head>
+
 
       <main className="min-h-screen bg-gray-100">
         <header className="bg-white shadow">

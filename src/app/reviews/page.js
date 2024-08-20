@@ -1,12 +1,9 @@
-import Head from 'next/head';
+'use client'
 
 export default function Review() {
   return (
     <div>
-      <Head>
-        <title>Restaurant Reviews - Culinary Travel Blog</title>
-        <meta name="description" content="Read restaurant reviews from across Malaysia" />
-      </Head>
+     
 
       <main className="min-h-screen bg-gray-100">
         <header className="bg-white shadow">

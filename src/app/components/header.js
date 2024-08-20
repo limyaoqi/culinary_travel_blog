@@ -1,5 +1,7 @@
+"use client";
+
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const router = useRouter();
@@ -17,22 +19,35 @@ export default function Header() {
             Culinary Travel Blog
           </h1>
           <div className="hidden sm:flex sm:space-x-8">
-            <Link href="/" passHref>
-              <a className={linkClasses("/")}>Home</a>
+            <Link
+              href="/"
+              className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Home
             </Link>
-            <Link href="/experiences" passHref>
-              <a className={linkClasses("/experiences")}>
-                Culinary Experiences
-              </a>
+            <Link
+              href="/experiences"
+              className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Culinary Experiences
             </Link>
-            <Link href="/reviews" passHref>
-              <a className={linkClasses("/reviews")}>Restaurant Reviews</a>
+            <Link
+              href="/reviews"
+              className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Restaurant Reviews
             </Link>
-            <Link href="/guides" passHref>
-              <a className={linkClasses("/guides")}>Food Travel Guides</a>
+            <Link
+              href="/guides"
+              className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Food Travel Guides
             </Link>
-            <Link href="/about" passHref>
-              <a className={linkClasses("/about")}>About Us</a>
+            <Link
+              href="/about"
+              className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+            >
+              About Us
             </Link>
           </div>
         </div>
