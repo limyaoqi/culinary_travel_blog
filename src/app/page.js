@@ -1,25 +1,11 @@
-import Head from "next/head";
-
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Culinary Travel Blog</title>
-        <meta
-          name="description"
-          content="Discover the best culinary experiences in Malaysia"
-        />
-        <link
-          rel="icon"
-          href="https://cdn-icons-png.flaticon.com/512/6350/6350271.png"
-        />
-      </Head>
-
       <main className="min-h-screen bg-gray-100">
         <header className="bg-white shadow">
           <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl font-bold text-gray-900">
-              Culinary Travel Blog
+              Culinary Travel Bio
             </h1>
           </div>
         </header>
@@ -84,16 +70,16 @@ export default function Home() {
             <h2 className="text-2xl font-bold mb-4">Recent Blog Posts</h2>
             <ul className="space-y-4">
               <li className="text-gray-700">
-                📅 <strong>Aug 20, 2024:</strong> &apos;Top 10 Street Foods You Must
-                Try in Malaysia&apos;
+                📅 <strong>Aug 20, 2024:</strong> &apos;Top 10 Street Foods You
+                Must Try in Malaysia&apos;
               </li>
               <li className="text-gray-700">
                 📅 <strong>Aug 15, 2024:</strong> &apos;A Guide to Traditional
                 Malaysian Desserts&apos;
               </li>
               <li className="text-gray-700">
-                📅 <strong>Aug 10, 2024:</strong> &apos;Exploring the Coffee Culture
-                in Kuala Lumpur&apos;
+                📅 <strong>Aug 10, 2024:</strong> &apos;Exploring the Coffee
+                Culture in Kuala Lumpur&apos;
               </li>
             </ul>
           </div>
