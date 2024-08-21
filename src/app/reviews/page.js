@@ -136,7 +136,8 @@ export default function Review() {
       <footer className="bg-white">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-500">
-            &copy; 2024 Culinary Travel Blog. All rights reserved.
+            &copy; 2024 Culinary Travel Blog. This Page is only for educational
+            purposes only..
           </p>
         </div>
       </footer>

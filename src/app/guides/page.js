@@ -93,7 +93,10 @@ export default function Guides() {
               Melaka offers a unique blend of flavors, reflecting its rich
               history. This guide will introduce you to the must-try dishes.
             </p>
-            <a href="https://www.nst.com.my/news/nation/2024/01/999875/beginners-guide-must-try-food-melaka" className="text-blue-500 hover:underline">
+            <a
+              href="https://www.nst.com.my/news/nation/2024/01/999875/beginners-guide-must-try-food-melaka"
+              className="text-blue-500 hover:underline"
+            >
               Read more &rarr;
             </a>
           </div>
@@ -103,7 +106,8 @@ export default function Guides() {
       <footer className="bg-white">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-500">
-            &copy; 2024 Culinary Travel Blog. All rights reserved.
+            &copy; 2024 Culinary Travel Blog. This Page is only for educational
+            purposes only..
           </p>
         </div>
       </footer>

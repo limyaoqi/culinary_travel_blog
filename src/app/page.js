@@ -117,7 +117,7 @@ export default function Home() {
               Recent Blog Posts
             </h2>
             <ul className="space-y-6">
-              <li className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
+              <li className="flex flex-col sm:flex-row items-start sm:items-center space-x-0 sm:space-x-3 space-y-3 sm:space-y-0 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
                 <div className="text-lg text-gray-800">
                   📅 <strong>Aug 20, 2024:</strong>
                 </div>
@@ -134,7 +134,7 @@ export default function Home() {
                   </p>
                 </div>
               </li>
-              <li className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
+              <li className="flex flex-col sm:flex-row items-start sm:items-center space-x-0 sm:space-x-3 space-y-3 sm:space-y-0 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
                 <div className="text-lg text-gray-800">
                   📅 <strong>Aug 15, 2024:</strong>
                 </div>
@@ -151,7 +151,7 @@ export default function Home() {
                   </p>
                 </div>
               </li>
-              <li className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
+              <li className="flex flex-col sm:flex-row items-start sm:items-center space-x-0 sm:space-x-3 space-y-3 sm:space-y-0 p-4 bg-white rounded-lg shadow-sm hover:shadow-md">
                 <div className="text-lg text-gray-800">
                   📅 <strong>Aug 10, 2024:</strong>
                 </div>
@@ -176,7 +176,8 @@ export default function Home() {
       <footer className="bg-white">
         <div className="max-w-7xl mx-auto py-4 px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-gray-500">
-            &copy; 2024 Culinary Travel Blog. All rights reserved.
+            &copy; 2024 Culinary Travel Blog. This Page is only for educational
+            purposes only..
           </p>
         </div>
       </footer>
