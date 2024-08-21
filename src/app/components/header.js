@@ -101,7 +101,6 @@ export default function Header() {
               </div>
             </div>
           </div>
-<<<<<<< HEAD
         </div>
       </div>
 
@@ -109,33 +108,51 @@ export default function Header() {
         <div className="sm:hidden" id="mobile-menu">
           <div className="space-y-1 px-2 pb-3 pt-2">
             <Link
+              href="/"
+              className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
+            >
+              Home
+            </Link>
+            <Link
               href="/experiences"
-              className="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
-              aria-current="page"
+              className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
             >
               Culinary Experiences
             </Link>
             <Link
               href="/reviews"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
             >
               Restaurant Reviews
             </Link>
             <Link
               href="/guides"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
             >
               Food Travel Guides
             </Link>
             <Link
               href="/about"
               className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              onClick={() => {
+                setIsMobileMenuOpen(false);
+              }}
             >
               About Us
             </Link>
           </div>
-=======
->>>>>>> refs/remotes/origin/main
         </div>
       )}
     </nav>

@@ -1,6 +1,5 @@
 "use client";
 
-
 export default function Experiences() {
   return (
     <div>
@@ -15,8 +14,13 @@ export default function Experiences() {
 
         <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8 space-y-12">
           {/* Overview of Malaysian Culinary Culture */}
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="https://miragas.com.my/wp-content/uploads/2022/08/article1-20220803-02.png"
+              alt="Malaysian Culinary Culture"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h2 className="text-2xl font-bold mb-4 text-black">
               Malaysian Culinary Culture
             </h2>
             <p className="text-gray-700">
@@ -29,8 +33,13 @@ export default function Experiences() {
           </div>
 
           {/* Highlight Specific Food-Related Experiences */}
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="https://media.audleytravel.com/-/media/images/home/inspiration/food-and-drink-holidays/eat-like-a-local/shutterstock_467823860-1000x3000.jpg"
+              alt="Culinary Experiences"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h2 className="text-2xl font-bold mb-4 text-black">
               Must-Try Culinary Experiences
             </h2>
             <ul className="space-y-4">
@@ -51,8 +60,10 @@ export default function Experiences() {
           </div>
 
           {/* Interactive Map of Culinary Hotspots */}
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">Culinary Hotspots</h2>
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <h2 className="text-2xl font-bold mb-4 text-black">
+              Culinary Hotspots
+            </h2>
             <p className="text-gray-700 mb-4">
               Discover the best places to eat in Malaysia, from street vendors
               to gourmet restaurants.
@@ -64,12 +75,18 @@ export default function Experiences() {
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"
+              className="rounded-lg"
             ></iframe>
           </div>
 
           {/* Tips for Experiencing Local Food Like a Local */}
-          <div className="bg-white p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold mb-4">
+          <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <img
+              src="https://media.worldnomads.com/responsibletravel/foodgetty.jpg"
+              alt="Eating Like a Local"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+            />
+            <h2 className="text-2xl font-bold mb-4 text-black">
               Tips for Eating Like a Local
             </h2>
             <ul className="list-disc pl-6 space-y-4 text-gray-700">
